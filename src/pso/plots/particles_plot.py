@@ -6,7 +6,13 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 from pso.fitness.fitness import fitness
  
-def plot_particles(particles):        
+def plot_particles(particles):
+    if len(particles) == 0:
+        print("No particles to visualize !")
+        return
+    if len(particles[0].position) != 2:
+        print("I can only visualize three dimensional function !")
+        return
     x = list(map(lambda p: p.position[0], particles)) #arange(-3.0,3.0,0.1)
     y = list(map(lambda p: p.position[1], particles)) #arange(-3.0,3.0,0.1)
     # X,Y = meshgrid(x, y) # grid of point

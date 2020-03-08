@@ -1,10 +1,11 @@
 {
-    "w": 0.3,
-    "c1": 0.1,
-    "c2": 0.9,
+    "w": 0.45,
+    "c1": 0.5,
+    "c2": 0.8,
     "target_error": 1e-8,
-    "iterations": 80,
-    "n_particles": 200,
+    "iterations": 200,
+    "n_particles": 300,
+    "arguments_dimensions": 2,
     "d_min": 10,
     "d_max": 10
 }

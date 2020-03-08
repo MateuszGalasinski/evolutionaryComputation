@@ -6,11 +6,6 @@ import numpy as np
 
 
 class App():
-    # def console_read_parameters(self):
-    #     self.n_iterations = int(input("Number of iterations: "))
-    #     self.target_error = float(input("Target error: "))
-    #     self.n_particles = int(input("Number of particles: "))
-
     def run(self):
         search_space = Space(1)
         particles_vector = [Particle() for _ in range(configuration.n_particles)]

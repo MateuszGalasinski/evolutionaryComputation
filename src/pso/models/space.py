@@ -1,14 +1,14 @@
-from pso.config.config import configuration
+from pso.config.config import configuration as cfg
 from pso.fitness.fitness import fitness
 import numpy as np 
-import random
+from random import random
 
 class Space():
     def __init__(self, target):
         self.target = target
         self.particles = []
         self.gbest_value = float('inf')
-        self.gbest_position = np.array([random.random()*10, random.random()*10])
+        self.gbest_position = np.array([x * random()*cfg.d_max for x in range(cfg.arguments_dimensions)])
 
     def print_particles(self):
         for particle in self.particles:
@@ -31,7 +31,7 @@ class Space():
 
     def move_particles(self):
         for particle in self.particles:
-            new_velocity = (configuration.w*particle.velocity) + (configuration.c1*random.random()) * (particle.pbest_position - particle.position) + \
-                            (random.random()*configuration.c2) * (self.gbest_position - particle.position)
+            new_velocity = (cfg.w*particle.velocity) + (cfg.c1*random()) * (particle.pbest_position - particle.position) + \
+                            (random()*cfg.c2) * (self.gbest_position - particle.position)
             particle.velocity = new_velocity
             particle.move()
