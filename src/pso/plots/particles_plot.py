@@ -23,4 +23,5 @@ def plot_particles(particles):
     ax.set_ylabel('Y Label')
     ax.set_zlabel('Z Label')
 
-    plt.show()
+    plt.draw()
+    plt.pause(0.001)
