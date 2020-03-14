@@ -16,7 +16,7 @@ class Space():
 
     def set_pbest(self):
         for particle in self.particles:
-            fitness_cadidate = fitness(particle)
+            fitness_cadidate = fitness(particle.position)
             if(particle.pbest_value > fitness_cadidate):
                 particle.pbest_value = fitness_cadidate
                 particle.pbest_position = particle.position
@@ -24,7 +24,7 @@ class Space():
 
     def set_gbest(self):
         for particle in self.particles:
-            best_fitness_cadidate = fitness(particle)
+            best_fitness_cadidate = fitness(particle.position)
             if(self.gbest_value > best_fitness_cadidate):
                 self.gbest_value = best_fitness_cadidate
                 self.gbest_position = particle.position

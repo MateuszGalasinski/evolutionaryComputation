@@ -16,7 +16,7 @@ def plot_particles(particles):
     x = list(map(lambda p: p.position[0], particles)) #arange(-3.0,3.0,0.1)
     y = list(map(lambda p: p.position[1], particles)) #arange(-3.0,3.0,0.1)
     # X,Y = meshgrid(x, y) # grid of point
-    Z = list(map(lambda p: fitness(p), particles)) # evaluation of the function on the grid
+    Z = list(map(lambda p: fitness(p.position), particles)) # evaluation of the function on the grid
     fig = plt.figure()
     ax = fig.gca(projection='3d')
     # surf = ax.scatter(X, Y, Z, rstride=1, cstride=1, 

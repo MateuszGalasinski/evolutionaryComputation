@@ -1,7 +1,8 @@
 from pathlib import Path
 
 class Config(object):
-    def __init__(self, w, c1, c2, iterations, target_error, n_particles, arguments_dimensions, d_min, d_max):
+    def __init__(self, algorithmType, w, c1, c2, iterations, target_error, n_particles, arguments_dimensions, d_min, d_max):
+        self.algorithmType = algorithmType
         self.w = w
         self.c1 = c1
         self.c2 = c2
@@ -15,6 +16,7 @@ import json
 
 def as_config(dct):
     return Config(
+        dct['algorithmType'],
         dct['w'],
         dct['c1'],
         dct['c2'],

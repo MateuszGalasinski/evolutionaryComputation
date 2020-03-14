@@ -1,4 +1,4 @@
 from math import sin, cos
 
-def fitness(particle):
-    return sin(particle.position[0]) + cos(particle.position[1])
+def fitness(position):
+    return sin(position[0]) + cos(position[1])
