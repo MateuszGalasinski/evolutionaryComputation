@@ -1,7 +1,7 @@
 from pathlib import Path
 
 class Config(object):
-    def __init__(self, algorithmType, w, c1, c2, iterations, target_error, n_particles, arguments_dimensions, d_min, d_max):
+    def __init__(self, algorithmType, w, c1, c2, iterations, target_error, n_particles, arguments_dimensions, d_min, d_max, fitness):
         self.algorithmType = algorithmType
         self.w = w
         self.c1 = c1
@@ -12,6 +12,8 @@ class Config(object):
         self.arguments_dimensions = arguments_dimensions
         self.d_min = d_min
         self.d_max = d_max
+        self.d_max = d_max
+        self.fitness = fitness
 import json
 
 def as_config(dct):
@@ -25,7 +27,8 @@ def as_config(dct):
         dct['n_particles'],
         dct['arguments_dimensions'],
         dct['d_min'], 
-        dct['d_max']
+        dct['d_max'],
+        dct['fitness']
         )
 
 configuration = json.loads(Path("configuration.json").read_text(), object_hook = as_config)

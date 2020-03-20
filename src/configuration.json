@@ -1,11 +1,12 @@
 {
-    "algorithmType": "ga",
-    "w": 0.45,
-    "c1": 0.5,
-    "c2": 0.8,
+    "algorithmType": "pso",
+    "fitness": "griewank",
+    "w": 0.5,
+    "c1": 0.7,
+    "c2": 0.5,
     "target_error": 1e-8,
     "iterations": 200,
-    "n_particles": 300,
+    "n_particles": 500,
     "arguments_dimensions": 2,
     "d_min": 10,
     "d_max": 10
