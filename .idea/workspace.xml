@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d6eddb-3451-4fac-8b92-706936f6ef4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bck/pso.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bck/pso2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/pso-experiments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/pso-experiments.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/pso.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/pso.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/evolutionaryComputation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/evolutionaryComputation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter/ex2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/ex2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="84e4cf61-9054-4414-bc07-203cb9aa80e7" />
   <component name="ProjectId" id="1Zz5c7FkWdS4uX52mt6bwXkdXwX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,13 +38,53 @@
       <option name="presentableId" value="Default" />
       <updated>1585829159483</updated>
       <workItem from="1585829163387" duration="2000" />
+      <workItem from="1587993673704" duration="21484000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="887" y="482" key="com.intellij.ide.util.TipDialog" timestamp="1585829163791">
+    <state x="792" y="223" key="CommitChangelistDialog2" timestamp="1588020514767">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="887" y="482" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1585829163791" />
+    <state x="792" y="223" key="CommitChangelistDialog2/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1588020514767" />
+    <state x="1306" y="563" key="FileChooserDialogImpl" timestamp="1587994876955">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1306" y="563" key="FileChooserDialogImpl/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1587994876955" />
+    <state width="2505" height="338" key="GridCell.Tab.0.bottom" timestamp="1587995002545">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="338" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1587995002545" />
+    <state width="2505" height="338" key="GridCell.Tab.0.center" timestamp="1587995002545">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="338" key="GridCell.Tab.0.center/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1587995002545" />
+    <state width="2505" height="338" key="GridCell.Tab.0.left" timestamp="1587995002545">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="338" key="GridCell.Tab.0.left/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1587995002545" />
+    <state width="2505" height="338" key="GridCell.Tab.0.right" timestamp="1587995002545">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2505" height="338" key="GridCell.Tab.0.right/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1587995002545" />
+    <state x="659" y="256" key="SettingsEditor" timestamp="1587995541310">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="659" y="256" key="SettingsEditor/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1587995541310" />
+    <state x="887" y="482" key="com.intellij.ide.util.TipDialog" timestamp="1587993675981">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="887" y="482" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1587993675981" />
+    <state x="800" y="117" width="961" height="1167" key="find.popup" timestamp="1588012465925">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="800" y="117" width="961" height="1167" key="find.popup/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1588012465925" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1588020511872">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1200.306.1200.1560@0.0.2560.1400" timestamp="1588020511872" />
   </component>
 </project>
